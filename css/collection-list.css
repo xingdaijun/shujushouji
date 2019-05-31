@@ -1,0 +1,121 @@
+a,div,img,span,p,input,h1,h2,h3,h4,h5,h6,header,body,footer,ul,li{
+  margin:0px;
+  padding:0px;
+}
+.collection-list{
+  padding:30px 0px 0px 0px;
+  width: 97%;
+  margin-left: 32px;
+}
+.collection-list .head{
+  width: 100%;
+  display: flex;
+  position: relative;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+}
+.collection-list .head p{
+  width: 80px;
+  height: 29px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 16px;
+  font-family: SourceHanSansSC-regular;
+}
+.collection-list .head .back{
+  width: 80px;
+  height: 23px;
+  border-radius: 4px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  cursor: pointer;
+  margin-left:10px;
+}
+.collection-list .head .btn{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  width: 80px;
+  height: 25px;
+  border-radius: 4px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  cursor: pointer;
+}
+.collection-list .search{
+  text-align: center;
+  margin-top:20px;
+  margin-left: -32px;
+}
+.collection-list .search input{
+  width: 414px;
+  height: 31px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  border-radius: 8px;
+  outline: none;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.collection-list .search .search-btn{
+  display: inline-block;
+  width: 80px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 8px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 16px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  cursor: pointer;
+}
+.collection-list table{
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-top:15px;
+  border-collapse: separate;
+  border-spacing: 0px 0px;
+  font-size: 13px;
+}
+.collection-list table td{
+  height: 46px;
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+}
+.collection-list table .table-head{
+  height:42px;
+  background-color: rgba(247, 247, 247, 1);
+}
+.collection-list .author{
+  width: 18%;
+}
+.collection-list .source{
+  width: 18%;
+}
+.collection-list .update-time{
+  width: 18%;
+}
+.collection-list .latest-chapters{
+  width: 26%;
+}
+.collection-list table .book-name .book-img{
+  width: 33px;
+  height: 33px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.collection-list table .book-name .book-img img{
+  width: 100%;
+  height: 100%;
+}

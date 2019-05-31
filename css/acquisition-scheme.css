@@ -1,0 +1,36 @@
+a,div,img,span,p,input,h1,h2,h3,h4,h5,h6,header,body,footer,ul,li{
+  margin:0px;
+  padding:0px;
+}
+.acquisition-scheme{
+  width: 100%;
+  padding:30px 32px 0px 32px;
+  font-family: SourceHanSansSC-regular;
+}
+.acquisition-scheme .title{
+  width: 80px;
+  height: 29px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 20px;
+}
+.acquisition-scheme .hr{
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+  width: 1173px;
+  margin:20px 0;
+}
+.acquisition-scheme .programme{
+  width: 1173px;
+  display: flex;
+  cursor: pointer;
+}
+.acquisition-scheme .programme .item{
+  width: 150px;
+  height: 100px;
+  line-height: 100px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 18px;
+  text-align: center;
+  font-family: Roboto;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-right: 30px;
+}

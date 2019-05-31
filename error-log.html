@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/error-log.css">
+</head>
+<body>
+  <div class="error-log">
+    <div class="top">
+      <div class="title">错误日志</div>
+      <div class="right">
+        <div class="all">全部标记为已处理</div>
+        <span>错误类型</span>
+        <select name="" id="type">
+          <option value="0">全部</option>
+          <option value="1">未知错误</option>
+          <option value="2">FTP负载错误</option>
+          <option value="3">对比最新章节失败</option>
+          <option value="4">空章节</option>
+          <option value="5">检测到重复章节名</option>
+          <option value="6">章节顺序混乱</option>
+          <option value="7">章节字数少于500字</option>
+          <option value="8">小说信息发生错误</option>
+          <option value="9">小说目录发生问题</option>
+          <option value="10">数据库操作发生问题</option>
+          <option value="11">书名，作者，简介等不一致</option>
+        </select>
+        <span>错误状态</span>
+        <select name="" id="status">
+          <option value="0">全部</option>
+          <option value="2">未处理</option>
+          <option value="1">已处理</option>
+        </select>
+        <div class="search">搜索</div>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <td class="head num">序号</td>
+        <td class="head name">书名</td>
+        <td class="head zhang">章节</td>
+        <td class="head time">日志产生时间</td>
+        <td class="head describe">错误描述</td>
+        <td class="head type">错误状态</td>
+        <td class="head operation">操作</td>
+      </thead>
+      <tr>
+        <!-- <td class="num">1</td>
+        <td class="name">斗破苍穹</td>
+        <td class="zhang">第一章 落败的天才</td>
+        <td class="time">2019-05-15 16:11:33</td>
+        <td class="describe">章节内容少于500字</td>
+        <td class="type">未处理</td>
+        <td class="operation">
+          <div class="see">查看</div>
+          <div class="yichuli">已处理</div>
+        </td> -->
+      </tr>
+    </table>
+    <div class="nomsg">暂无数据</div>
+  </div>
+  <script src="./js/jquery-3.2.1.js"></script>
+  <script src="./js/error-log.js"></script>
+</body>
+</html>

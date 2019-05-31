@@ -1,0 +1,62 @@
+a,div,img,span,p,input,h1,h2,h3,h4,h5,h6,header,body,footer,ul,li,textarea{
+  margin:0px;
+  padding:0px;
+}
+.chapter-details{
+  box-sizing:border-box;
+  padding:0px 32px;
+}
+.chapter-details .top{
+  width: 100%;
+  padding: 14px 0px 21px 0px;
+}
+.chapter-details .top .back-btn{
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  line-height: 30px;
+  cursor: pointer;
+}
+.chapter-details .chapte-name{
+  margin-bottom: 20px;
+}
+.chapter-details .chapte-name input{
+  width: 485px;
+  height: 33px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  padding-left:8px;
+  border-radius: 5px;
+  outline: none;
+}
+.chapter-details .content textarea{
+  width: 726px;
+  height: 299px;
+  line-height: 20px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  resize:none;
+}
+.chapter-details .btn{
+  width: 101px;
+  height: 30px;
+  border-radius: 4px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  line-height: 30px;
+  margin-top:22px;
+}

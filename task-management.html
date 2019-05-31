@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/task-management.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1204473_bziieebdugm.css">
+</head>
+<body>
+  <div class="task-management">
+    <div class="top">
+      <div class="left">
+          <div class="task-list tm">采集任务管理</div>
+          <div class="task-list back">返回</div>
+      </div>
+      
+      <div class="right">
+        <div class="task-list cl">采集清单</div>
+        <div class="task-list test">测试采集</div>
+      </div>
+    </div>
+    <div class="new-add">
+      <div class="title">新增采集</div>
+      <div class="name-zz">
+        <div class="book-name">
+          <span>书名</span>
+          <input type="text" placeholder="单行输入">
+        </div>
+        <div class="book-zz">
+            <span>作者</span>
+            <input type="text" placeholder="单行输入">
+          </div>
+      </div>
+      <div class="add-link">
+        <span>添加链接采集</span>
+        <textarea name="" id="" ></textarea>
+      </div>
+      <div class="add-more">
+        <span>添加批量采集</span>
+<input type="file" enctype="multipart/form-data"
+ name="upfile" id="files" value="" />
+        
+        <div>
+          <div class="btn add">新增采集</div>
+          <div class="btn remove">清空采集源</div>
+        </div>
+      </div>
+    </div>
+    <div class="set">
+      <div class="title">设置</div>
+      <div class="plan-name">
+        <span>采集方案管理：</span>
+        <input type="text" value="" placeholder="单行输入">
+      </div>
+      <div class="set-zi">
+        <div>
+          <span>设置过滤的字</span>
+          <input type="text"  class="beforeContent" placeholder="单行输入">
+        </div>
+        <div>
+          <span>替换为</span>
+          <input type="text" class="nowContent" placeholder="单行输入">
+        </div>
+        <div class="btn">添加过滤</div>
+      </div>
+      <ul class="set-result">
+        <li>
+          <span>起点小说</span>
+          <span>替换为</span>
+          <span>平凡小说</span>
+          <i class="iconfont icon-chahao"></i>
+        </li>
+        <li>
+          <span>共产党</span>
+          <span>替换为</span>
+          <span>GCD</span>
+          <i class="iconfont icon-chahao"></i>
+        </li>
+      </ul>
+      <div class="collection-times">
+        <span>采集频率</span>
+        <input type="text" placeholder="0.1" class="time">
+        <span>秒/每次</span>
+      </div>
+      <div class="user">
+        <div>
+          <span>账号</span>
+          <input type="text" class="username" placeholder="用户名">
+        </div>
+        <div>
+          <span>密码</span>
+          <input type="text" class="upwd" placeholder="密码">
+        </div>
+        <div class="btn">添加账号</div>
+      </div>
+      <ul class="user-result">
+      </ul>
+    </div>
+    <div class="hr"></div>
+    <div class="submit">
+      <div class="btn sub">提交</div>
+      <div class="btn back">返回</div>
+    </div>
+    <div class="alert"></div>
+  </div>
+  <script src="./js/jquery-3.2.1.js"></script>
+  <script src="./js/task-management.js"></script>
+</body>
+</html>

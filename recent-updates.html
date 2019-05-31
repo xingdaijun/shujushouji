@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/recent-updates..css">
+  <link href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.css" rel="stylesheet">
+  <script src="./js/pagination.js"></script>
+</head>
+<body>
+  <div class="recent-updates">
+    <div class="top">
+      <div class="back-btn">返回</div>
+      <div class="laiyuan">
+        <span>来源</span>
+        <select name="" id="source">
+        </select>
+      </div>
+    </div>
+    <table>
+      <thead >
+        <td class="table-head num">序号</td>
+        <td class="table-head book-name">书名</td>
+        <td class="table-head author">作者</td>
+        <td class="table-head source">来源</td>
+        <td class="table-head update-time">更新时间</td>
+        <td class="table-head latest-chapters">最新章节</td>
+      </thead>
+      <tr>
+        <!-- <td class="num">1</td>
+        <td class="book-name">
+          <div class="book-img">
+            <img src="" alt="">
+          </div>
+          <span>七届传说</span>
+        </td>
+        <td class="author">李小明</td>
+        <td class="source">起点中文网</td>
+        <td class="update-time">2019-05-06</td>
+        <td class="latest-chapters">最新章节测试文字测试信息</td> -->
+      </tr>
+    </table>
+    <div class="fenye" style="display:none">
+      <div class="count"></div>
+      <div class="prev">上一页</div>
+      <div class="page">
+      </div>
+      <div class="next">下一页</div>
+      <select name="" id="num">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+        <option value="80">80</option>
+        <option value="100">100</option>
+      </select>
+      <div>条/每页</div>
+    </div>
+  </div>
+  <script src="./js/jquery-3.2.1.js"></script>
+  <script src="./js/recent-updates.js"></script>
+</body>
+</html>

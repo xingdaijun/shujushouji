@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>小说采集更新系统</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1204477_mmvr6ctnfoa.css">
+</head>
+<body>
+  <header class="header">
+    <span class="logo">小说后台管理系统</span>
+    <div class="h-right">
+      <div class="changeUpwd">修改密码</div>
+      <div class="logout">退出登录</div>
+      <div class="userName">132465</div>
+      <div class="headImg">
+          <i class="iconfont icon-touxiang"></i>
+      </div>
+    </div>
+  </header>
+  <!-- 左边框 -->
+  <div class="left" >
+    <ul class="left-list">
+      <li class="left-list-item book">书籍管理</li>
+      <li class="left-list-item plan">采集方案</li>
+      <li class="left-list-item error">错误日志</li>
+    </ul>
+  </div>
+  <div id="right">
+    <iframe src="./book-management.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>
+  </div>
+  <script>
+    // window.onload=function(){
+    //   let height= window.screenTop
+    //   let right=document.getElementById("right");
+    //   console.log(height)
+    //   right.style.height=`${height-70}px`
+    // }
+  </script>
+  <script src="./js/jquery-3.2.1.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

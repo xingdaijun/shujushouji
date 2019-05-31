@@ -1,0 +1,62 @@
+a,div,img,span,p,input,h1,h2,h3,h4,h5,h6,header,body,footer,ul,li{
+  margin:0px;
+  padding:0px;
+}
+header{
+  width:100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgba(136, 134, 134, 1);
+  position: relative;
+  color:#fff;
+}
+header .logo{
+  display: inline-block;
+  width: 200px;
+  height: 29px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  text-align: left;
+  margin-left:22px;
+  font-family: SourceHanSansSC-regular;
+}
+header .h-right{
+  display:flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  position: absolute;
+  top:0px;
+  right:0px;
+  font-size: 14px;
+}
+header .h-right div{
+  margin-right:20px;
+  cursor: pointer;
+}
+.left{
+  width: 150px;
+  height:100%;
+  line-height: 20px;
+  position: absolute;
+  background-color: rgba(81, 78, 78, 1);
+  top:60px;
+}
+.left-list-item{
+  width: 105px;
+  height: 45px;
+  line-height: 45px;
+  color:#fff;
+  font-size: 14px;
+  font-family: Roboto;
+  padding-left:35px;
+  cursor: pointer;
+}
+#right{
+  width: 89vw;
+  height: 100%;
+  position: absolute;
+  left:150px;
+}
+.header .headImg .icon-touxiang{
+  font-size: 24px;
+}

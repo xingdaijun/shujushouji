@@ -1,0 +1,131 @@
+a,div,img,span,p,input,h1,h2,h3,h4,h5,h6,header,body,footer,ul,li,select{
+  margin:0px;
+  padding:0px;
+}
+.recent-updates{
+  box-sizing:border-box;
+  padding:0px 32px;
+}
+.recent-updates .top{
+  width: 100%;
+  padding: 14px 0px 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.recent-updates .top .back-btn{
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 12px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  line-height: 30px;
+  cursor: pointer;
+}
+.recent-updates .top .laiyuan select{
+  width: 137px;
+  height: 27px;
+  line-height: 18px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  border-radius: 5px;
+  outline: none;
+}
+.recent-updates table{
+  width: 100%;
+  height: 54px;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-top:4px;
+  border-collapse: separate;
+  border-spacing: 0px 0px;
+  font-size: 12px;
+}
+.recent-updates table td{
+  height: 56px;
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+}
+.recent-updates table .table-head{
+  height: 52px;
+  background-color: rgba(247, 247, 247, 1);
+
+}
+.recent-updates .num{
+  width: 5%;
+}
+.recent-updates .author{
+  width: 10%;
+}
+.recent-updates .source{
+  width: 13%;
+}
+.recent-updates .update-time{
+  width: 18%;
+}
+.recent-updates .latest-chapters{
+  width: 26%;
+}
+.recent-updates table .book-name{
+  width:15%;
+  text-align: left;
+}
+.recent-updates table .book-name .book-img{
+  width: 33px;
+  height: 33px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.recent-updates table .book-name .book-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.fenye{
+  width:600px;
+  display: flex;
+  margin:50px auto;
+}
+.fenye>div{
+  height:20px;
+  padding:3px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.fenye .prev{
+  border:1px solid rgba(187, 187, 187, 1);
+  margin:0px 5px;
+}
+.fenye .next{
+  border:1px solid rgba(187, 187, 187, 1);
+  margin-left: 5px;
+}
+.fenye .page{
+  display: flex;
+  padding: 0px;
+}
+.fenye  .page-item{
+  width: 20px;
+  height:20px;
+  border:1px solid rgba(187, 187, 187, 1);
+  margin:0px 5px;
+  padding:3px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.fenye  .page-item:hover{
+  color: #108ee9
+}
+.fenye .page  .active{
+  color: #108ee9
+}
+.fenye #num{
+  width: 50px;
+  margin-left:10px;
+}

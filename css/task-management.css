@@ -1,0 +1,290 @@
+a,div,img,span,p,input,h1,h2,h3,h4,h5,h6,header,body,footer,ul,li{
+  margin:0px;
+  padding:0px;
+}
+.task-management{
+  width: 97%;
+  height: 100%;
+  padding-left:32px;
+}
+.task-management .top{
+  width: 97%;
+  padding:20px 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Microsoft Yahei;
+  color: rgba(16, 16, 16, 1);
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+  margin-bottom: 13px;
+}
+.task-management .top>div{
+  display: flex;
+  align-items: baseline
+}
+.task-management .top .left .tm{
+  width: 100px;
+}
+.task-management .top .left .back{
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  margin-left: 10px;
+}
+.task-management .top .task-list{
+  width: 78px;
+  height: 25px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 27px;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+  position: relative;
+  top:6px;
+  margin-left:10px;
+  cursor: pointer;
+}
+.task-management .new-add{
+  width: 97%;
+  padding:0px 0px 0px 0px;
+}
+.task-management .new-add .name-zz{
+  padding-left:63px;
+  display: flex;
+  margin-bottom: 22px;
+}
+.task-management .new-add .name-zz .book-name{
+  margin-right: 41px;
+}
+.task-management .new-add .name-zz div span{
+  width: 32px;
+  height: 24px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 16px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+}
+.task-management .new-add .name-zz div input{
+  width: 189px;
+  height: 27px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-left: 12px;
+  padding-left: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+.task-management .new-add .add-link{
+  display:flex;
+  margin-bottom: 18px;
+}
+.task-management .new-add .add-link span{
+  width: 96px;
+  height: 24px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 16px;
+  font-family: SourceHanSansSC-regular;
+  margin-right:16px;
+}
+.task-management .new-add .add-link textarea{
+  width: 475px;
+  height: 184px;
+  line-height: 20px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  resize:none;
+}
+.task-management .new-add .add-more{
+  margin-bottom: 19px;
+}
+.task-management .new-add .add-more input{
+  margin-left:12px;
+  cursor: pointer;
+}
+.task-management .new-add .add-more>div{
+  padding-left:113px;
+  margin-top:20px;
+}
+.task-management .new-add .add-more>div .btn{
+  display: inline-block;
+  width: 97px;
+  height: 27px;
+  line-height: 27px;
+  border-radius: 4px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 13px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-right: 14px;
+  cursor: pointer;
+}
+.task-management .set{
+  width: 97%;
+  padding:0px 0px 0px 0px;
+  margin-top:24px;
+}
+.task-management .title{
+  height: 40px;
+  line-height: 40px;
+  padding-left:10px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 16px;
+  font-family: SourceHanSansSC-bold;
+  background-color: rgba(244, 244, 244, 1);
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+.task-management .set .plan-name{
+  font-size: 16px;
+  font-family: SourceHanSansSC-regular;
+  margin-bottom: 27px;
+}
+.task-management .set .plan-name span{
+  width: 112px;
+  height: 24px;
+  color: rgba(16, 16, 16, 1);
+}
+.task-management .set .plan-name input{
+  width: 334px;
+  height: 34px;
+  color: rgba(136, 136, 136, 1);
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  padding-left: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+.task-management .set .set-zi,.task-management .set .user{
+  display: flex;
+}
+.task-management .set .set-zi div,.task-management .set .user div{
+  margin-right: 53px;
+}
+.task-management .set .set-zi span,.task-management .set .user span{
+  width: 96px;
+  height: 24px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 16px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+}
+.task-management .set .set-zi input,.task-management .set .user input{
+  width: 189px;
+  height: 34px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  padding-left: 5px;
+  margin-left: 12px;
+  border-radius:5px;
+  outline: none;
+}
+.task-management .set  .set-result,.task-management .set  .user-result{
+  margin-top:20px;
+}
+.task-management .set  .set-result li,.task-management .set  .user-result li{
+  list-style: none;
+  padding:8px 0px;
+  width: 468px;
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+  display:flex;
+  position: relative;
+}
+.task-management .set  .set-result li span,.task-management .set  .user-result span{
+  margin-right: 10px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  font-family: SourceHanSansSC-regular;
+}
+.task-management .set  .set-result li i,.task-management .set  .user-result li i{
+  position: absolute;
+  top:8px;
+  right:0px;
+}
+.task-management .set  .set-result li .icon-chahao,.task-management .set  .user-result li .icon-chahao{
+  font-size: 20px;
+  cursor: pointer;
+}
+.task-management .set .collection-times{
+  margin:29px 0px 20px 0px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+}
+.task-management .set .collection-times span{
+  width: 64px;
+  height: 24px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 16px;
+  font-family: SourceHanSansSC-regular;
+}
+.task-management .set .collection-times input{
+  width: 117px;
+  height: 34px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: Roboto;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin:0px 11px 0px 26px;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+.task-management .set .set-zi .btn ,.task-management .set .user .btn{
+  width: 93px;
+  height: 34px;
+  border-radius: 6px;
+  line-height: 34px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-left: -37px;
+  cursor: pointer;
+}
+.task-management  .hr{
+  width: 97%;
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+  margin:30px 0px;
+}
+.task-management .submit{
+  text-align: center
+}
+.task-management .submit .btn{
+  display: inline-block;
+  width: 155px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 16px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin:0px 11px;
+  cursor: pointer;
+}
+.html{
+  width:100px;
+  height:30px;
+  border-radius: 5px;
+  background:#e5e5e5;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-110px;
+  margin-top:-15px;
+  display: none;
+  text-align: center;
+  line-height: 30px;
+}

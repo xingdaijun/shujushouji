@@ -1,0 +1,70 @@
+a,div,img,span,p,input,h1,h2,h3,h4,h5,h6,header,body,footer,ul,li{
+  margin:0px;
+  padding:0px;
+}
+.atm{
+  width: 97%;
+  margin-left: 32px;
+  padding-top:30px;
+}
+.atm .top{
+  display:flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+}
+.atm .top div{
+  width: 134px;
+  height: 39px;
+  line-height: 39px;
+  border-radius: 6px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-right: 35px;
+  cursor: pointer;
+}
+.atm table{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+.atm table td{
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 14px;
+  height: 34px;
+  padding:5px 0px;
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+}
+.atm table .head{
+  height: 34px;
+  line-height: 34px;
+  background-color: rgba(247, 247, 247, 1);
+  text-align: center;
+}
+.atm table .name{
+  width: 30%;
+  color: rgba(16, 16, 16, 1);
+  font-family: SourceHanSansSC-regular;
+}
+.atm table .cz{
+  width: 70%;
+}
+.atm table .cz div{
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  border-radius: 4px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 13px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  cursor: pointer;
+  line-height: 20px;
+}
+.atm table .cz .see{
+  margin-right: 10px;
+}

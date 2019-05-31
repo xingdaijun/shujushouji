@@ -1,0 +1,184 @@
+body{
+  box-sizing: border-box;
+}
+a,div,img,span,p,input,h1,h2,h3,h4,h5,h6,header,body,footer,ul,li{
+  margin:0px;
+  padding:0px;
+}
+.book-detail{
+  box-sizing:border-box;
+  padding-left:32px;
+}
+.book-detail .top{
+  width: 100%;
+  padding: 14px 0px 15px 0px;
+}
+.book-detail .top .back-btn{
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  line-height: 30px;
+  cursor: pointer;
+}
+.book-detail .book-msg{
+  display:flex;
+}
+.book-detail .book-msg .left{
+  width: 111px;
+  height: 120px;
+  background: #E8E8E8;
+}
+.book-detail .book-msg .right{
+  width: 1036px;
+  margin-left:15px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+}
+.book-detail .book-msg .right .book-name{
+  width: 80px;
+  height: 29px;
+  font-size: 20px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+  margin-bottom: 10px;
+}
+.book-detail .book-msg .right span{
+  margin-right: 15px;
+}
+.book-detail .book-msg .right .brief-introduction{
+  margin-top:10px;
+  line-height: 25px;
+}
+.chapter-catalogue{
+  width: 1165px;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-top:30px;
+  padding-left:10px;
+}
+.chapter-list{
+  width: 1162px;
+  height: 230px;
+  overflow-y: auto;
+  margin-top:15px;
+  padding-right:15px;
+}
+.chapter-list ul li{
+  list-style: none;
+  display:flex;
+  font-size: 14px;
+  font-family: SourceHanSansSC-regular;
+  border-bottom: 1px solid #BBBBBB;
+  padding:11px 0px;
+}
+.chapter-list ul li:first-child{
+  padding-top:0px; 
+}
+.chapter-list ul li .choose{
+  width: 22px;
+  height: 22px;
+  border:1px solid rgba(16, 16, 16, 1);
+  margin-right: 15px;
+}
+.chapter-list ul li .num{
+  margin-right: 14px;
+}
+.chapter-list ul li .item-order{
+  margin-right: 30px;
+}
+.book-detail .btn-box{
+  display: flex;
+  margin-top:20px;
+}
+.book-detail .btn-box div{
+  height: 32px;
+  border-radius: 8px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  line-height: 32px;
+  margin-right: 20px;
+  padding:0px 15px;
+  cursor: pointer;
+}
+.book-detail>.source{
+  margin-top:15px;
+  display: flex;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  font-family: Microsoft Yahei;
+}
+.book-detail>.source>.replace{
+  margin-right: 35px;
+}
+.book-detail>.source select{
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-left:10px;
+  border-radius: 8px;
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px;
+  overflow: hidden;
+  
+}
+.book-detail>.source input{
+  width: 166px;
+  height: 30px;
+  padding-left:8px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-left: 10px;
+  border-radius: 6px;
+  outline: none;
+}
+.book-detail>.source .btn{
+  width: 60px;
+  height: 30px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+  line-height: 30px;
+  margin-left:25px;
+}
+.book-detail>.insert{
+  margin-top:15px;
+  display: flex;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  font-family: Microsoft Yahei;
+}
+.book-detail>.insert .zhang input{
+  width: 166px;
+  height: 30px;
+  padding-left:8px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  border: 1px solid rgba(187, 187, 187, 1);
+  margin-left: 10px;
+  border-radius: 6px;
+  outline: none;
+}
+.book-detail>.insert .btn{
+  width: 60px;
+  height: 30px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+  line-height: 30px;
+  margin-left:25px;
+}

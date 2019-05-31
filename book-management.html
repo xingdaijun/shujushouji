@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/book-management.css"> 
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="bm-top">
+    <div class="top">
+      <input type="text" placeholder="请输入书籍的名称">
+      <div class="btn search-box">搜索书籍</div>
+      <div class="btn recent-updates">最近更新</div>
+    </div>
+    <div class="search-result">
+      <div class="title">搜索结果</div>
+      <div class="hr"></div>
+      <table >
+        <thead >
+          <td class="table-head book-name">书名</td>
+          <td class="table-head author">作者</td>
+          <td class="table-head source">来源</td>
+          <td class="table-head update-time">更新时间</td>
+          <td class="table-head latest-chapters">最新章节</td>
+        </thead>
+        <tr>
+          <!-- <td class="book-name">
+            <div class="book-img">
+              <img src="" alt="">
+            </div>
+            <span>七届传说</span>
+          </td>
+          <td class="author">李小明</td>
+          <td class="source">起点中文网</td>
+          <td class="update-time">2019-05-06</td>
+          <td class="latest-chapters">最新章节测试文字测试信息</td> -->
+        </tr>
+      </table>
+      <div class="msg" style="display: none;">没有搜到您想要的书籍</div>
+    </div>
+  </div>
+  <script src="./js/jquery-3.2.1.js"></script>
+  <script src="./js/book-management.js"></script>
+</body>
+</html>

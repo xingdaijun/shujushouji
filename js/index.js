@@ -10,7 +10,7 @@
   $(".userName").html(uname);
   //退出登录
   $(".logout").click(function(){
-    window.location.href="./login.html"
+    window.location.href="./index.html"
   })
   //修改密码
   $(".changeUpwd").click(function(){

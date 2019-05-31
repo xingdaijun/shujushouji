@@ -31,9 +31,9 @@
   })
   //提示1.5s文字消失
   function clear(){
-    setInterval(function(){
+    setTimeout(function(){
       $(".alert").css("display","none");
-    },1500)
+    },3500)
   }
 
   guolv();
@@ -101,7 +101,8 @@
         dataType: "json",
         success: function(res) {
           if(res.errcode==0){
-            console.log(res)
+            console.log(res);
+            console.log($(".alert"))
             $(".alert").html("新增成功")
             $(".alert").css("display","block");
             clear()

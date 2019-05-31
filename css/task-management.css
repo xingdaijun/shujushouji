@@ -288,3 +288,16 @@ a,div,img,span,p,input,h1,h2,h3,h4,h5,h6,header,body,footer,ul,li{
   text-align: center;
   line-height: 30px;
 }
+.alert{
+  position: absolute;
+  top:50%;
+  left:50%;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin-left:-50px;
+  margin-top:15px;
+  background:#e5e5e5;
+  text-align: center;
+  border-radius: 3px;
+}

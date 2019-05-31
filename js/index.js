@@ -10,11 +10,11 @@
   $(".userName").html(uname);
   //退出登录
   $(".logout").click(function(){
-    window.location.href="http://127.0.0.1:5500/login.html"
+    window.location.href="./login.html"
   })
   //修改密码
   $(".changeUpwd").click(function(){
-    window.location.href="http://127.0.0.1:5500/change-password.html"
+    window.location.href="./change-password.html"
   })
   let $iframe=$("#right iframe");
   //书籍管理
